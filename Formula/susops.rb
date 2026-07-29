@@ -8,6 +8,7 @@ class Susops < Formula
   license "AGPL-3.0-or-later"
 
   depends_on "socat"
+  depends_on "rust" => :build
   depends_on "python@3.14"
 
   livecheck do
