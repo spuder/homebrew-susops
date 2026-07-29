@@ -1,7 +1,7 @@
 cask "susops" do
   # version + sha256 rewritten by scripts/update_homebrew_sha.py on each tag.
-  version "3.0.1"
-  sha256 "12f1bd81ad39eae8521ca1073535380d7124188bdc7c9745a6ff55257b1d161e"
+  version "3.1.0"
+  sha256 "defcb4a9826c3a1ac6d01e85adebe2ffff51ab11a5c2150c1a3f2f1fb6b3fb86"
 
   url "https://github.com/mashb1t/susops/releases/download/v#{version}/SusOps-#{version}-arm64.dmg"
   name "SusOps"
